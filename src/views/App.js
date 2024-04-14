@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.scss";
 import MyComponent from "./example/MyComponent.js";
+import SignInForm from "./example/SignInForm.js";
 // class component / function component (function/arrow )
 function App() {
   return (
@@ -10,16 +11,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hi, let 's learn React with me !
-        </a>
+
         <MyComponent />
-      
+        <SignInForm />
+
       </header>
     </div>
   );
